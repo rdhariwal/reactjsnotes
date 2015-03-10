@@ -1,3 +1,13 @@
+
+var React = require('react');
+var input = React.DOM.input({type: 'password'});
+debugger;
+React.render(input, document.body);
+
+
+/*
+
+
 var { View, Model, Collection } = require('backbone');
 var { template, debounce } = require('underscore');
 var $ = require('jquery');
@@ -49,4 +59,5 @@ var app = new App({
 });
 
 app.render();
+*/
 
